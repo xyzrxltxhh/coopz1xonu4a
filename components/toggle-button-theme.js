@@ -10,7 +10,7 @@ const switchTheme = () => {
 				onClick={toggleColorMode}
 				bg={useColorModeValue('purple.300', 'yellow.500')}
 			>
-				🌔
+				🌔CSwitch theme
 			</Button>
 		</>
 	)
