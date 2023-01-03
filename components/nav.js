@@ -1,15 +1,20 @@
-import { Box, HStack, Link, Spacer } from '@chakra-ui/react'
+import { Box, HStack, Link, useColorModeValue } from '@chakra-ui/react'
 import SwitchTheme from './toggle-button-theme'
 
 const Navbar = () => {
 	return (
-		<Box display={'flex'} pos={'fixed'} width={'98%'}>
-			<HStack spacing={'2'}>
+		<Box
+			display={'flex'}
+			bg={useColorModeValue('#ccffff00', '#00001a00')}
+			css={{ backdropFilter: 'blur(10px)' }}
+			pos={'fixed'}
+			width={'100%'}
+		>
+			<HStack mx={'auto'} spacing={'2'}>
 				<Link>Git</Link>
 				<Link>Git</Link>
 				<Link>Git</Link>
 			</HStack>
-			<Spacer />
 			<SwitchTheme />
 		</Box>
 	)
