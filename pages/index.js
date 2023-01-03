@@ -1,19 +1,18 @@
-import { Container, Box } from "@chakra-ui/react"
-import { useColorModeValue } from "@chakra-ui/react"
+import { Box } from '@chakra-ui/react'
+import { useColorModeValue } from '@chakra-ui/react'
+import Navbar from '../components/nav'
 
 function Home() {
-  return(
-    <Container>
-      <Box bg={useColorModeValue("whiteAlpha.300", "whiteAlpha.600") } 
-           mb={6}
-           p={4}
-           borderRadius="lg"
-           textAlign="center"
-      >
-        Welcome, my page!
-      </Box>
-    </Container>
-  )
+	return (
+		<Box
+			m={'5'}
+			w={'100%'}
+			h={'100vh'}
+			bg={useColorModeValue('#ffffff40', '#20202380')}
+		>
+			<Navbar />
+		</Box>
+	)
 }
 
 export default Home
