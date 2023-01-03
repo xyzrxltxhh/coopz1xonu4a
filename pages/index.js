@@ -8,7 +8,6 @@ function Home() {
 		<Box
 			fontSize={'xl'}
 			fontFamily={'mono'}
-			w={'100%'}
 			bg={useColorModeValue('#ffffff40', '#20202380')}
 		>
 			<Navbar />
