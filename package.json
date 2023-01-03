@@ -1,0 +1,34 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyzrxltxhh/Web.git"
+  },
+  "keywords": [],
+  "author": "z1xonu4a & xyzrxltxh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xyzrxltxhh/Web/issues"
+  },
+  "homepage": "https://github.com/xyzrxltxhh/Web#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.1.3",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
