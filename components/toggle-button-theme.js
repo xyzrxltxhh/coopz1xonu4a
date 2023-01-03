@@ -7,9 +7,8 @@ const switchTheme = () => {
 		<>
 			<Button
 				size={'sm'}
-				m={'2'}
-				bg={useColorModeValue('purple.300', 'yellow.500')}
 				onClick={toggleColorMode}
+				bg={useColorModeValue('purple.300', 'yellow.500')}
 			>
 				🌔
 			</Button>
