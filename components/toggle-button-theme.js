@@ -6,9 +6,10 @@ const switchTheme = () => {
 	return (
 		<>
 			<Button
+				size={'sm'}
+				m={'2'}
 				bg={useColorModeValue('purple.300', 'yellow.500')}
 				onClick={toggleColorMode}
-				onFocus={console.log('Hello World!')}
 			>
 				🌔
 			</Button>
