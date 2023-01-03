@@ -1,16 +1,18 @@
 import { Box } from '@chakra-ui/react'
 import { useColorModeValue } from '@chakra-ui/react'
+import Articles from '../components/articles'
 import Navbar from '../components/nav'
 
 function Home() {
 	return (
 		<Box
-			m={'5'}
+			fontSize={'xl'}
+			fontFamily={'mono'}
 			w={'100%'}
-			h={'100vh'}
 			bg={useColorModeValue('#ffffff40', '#20202380')}
 		>
 			<Navbar />
+			<Articles />
 		</Box>
 	)
 }
