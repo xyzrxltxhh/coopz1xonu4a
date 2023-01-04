@@ -4,18 +4,16 @@ import Articles from '../components/articles'
 import Navbar from '../components/nav'
 
 const theme = {
-  'dark': '#ffffff40',
-  'light': '#20202380'
+  'dark': '#20202380',
+  'light': '#ffffff40'
 }
-
-
 
 function Home() {
 	return (
 		<Box
 			fontSize={'xl'}
 			fontFamily={'mono'}
-			bg={useColorModeValue(theme.dark, theme.light)}
+			bg={useColorModeValue(theme.light, theme.dark)}
 		>
 			<Navbar />
 			<Articles />

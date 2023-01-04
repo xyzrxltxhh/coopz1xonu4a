@@ -1,8 +1,8 @@
 import { Button, useColorMode, useColorModeValue } from '@chakra-ui/react'
 
 const theme = {
-  'dark': 'purple.300',
-  'light': 'yellow.500'
+  'dark': 'yellow.500',
+  'light': 'purple.300'
 }
 
 const switchTheme = () => {
@@ -13,7 +13,7 @@ const switchTheme = () => {
 			<Button
 				size={'sm'}
 				onClick={toggleColorMode}
-				bg={useColorModeValue(theme.dark, theme.light)}
+				bg={useColorModeValue(theme.light, theme.dark)}
 			>
 				🌔
 			</Button>

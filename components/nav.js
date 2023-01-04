@@ -1,6 +1,11 @@
 import { Box, Link, Spacer, Stack, useColorModeValue } from '@chakra-ui/react'
 import SwitchTheme from './toggle-button-theme'
 
+const theme = {
+  'dark': '#00000001',
+  'light': '#00000000'
+}
+
 const Navbar = () => {
 	return (
 		<Box
@@ -9,7 +14,7 @@ const Navbar = () => {
 			display={'flex'}
 			position={'fixed'}
 			css={{ backdropFilter: 'blur(10px)' }}
-			bg={useColorModeValue('#ccffff00', '#00001a00')}
+			bg={useColorModeValue(theme.light, theme.dark)}
 		>
 			<Stack direction={'row'} spacing={'2'}>
 				<Link>Test</Link>
